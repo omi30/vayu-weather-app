@@ -1,77 +1,75 @@
-# 🌦️ Weather App – Advanced Weather Dashboard
+# 🌬️ Vayu - Weather App
 
-A modern, responsive **Weather Application** built using **HTML, CSS (Tailwind + Custom Styles), and JavaScript**, powered by the **OpenWeatherMap API**.
+**Vayu Weather App** is a modern, responsive **weather and air-quality dashboard** built using **HTML, CSS (Tailwind + Custom Styles), and JavaScript**, powered by the **OpenWeatherMap API**.
 
-🌍 The app allows users to:
-- Search weather by **city name**
-- Fetch weather using **live geolocation**
-- View **current temperature, humidity, visibility, pressure, wind speed**
-- Get **Air Quality Index (AQI)** with health recommendations
-- See **sunrise & sunset time**
-- View **5-day weather forecast**
-- Enjoy **dynamic background images and weather animations** (stars, rain, snow) based on weather and time (day/night)
+It delivers real-time weather updates, air quality insights, and elegant visuals with dynamic backgrounds and animations based on weather conditions and time of day.
+
+---
+
+## 🌍 Features
+
+- 🔍 Search weather by **city name**
+- 📍 Get weather using **live geolocation**
+- 🌡️ View **temperature, humidity, wind speed, pressure & visibility**
+- 🌫️ **Air Quality Index (AQI)** with health recommendations
+- 🌅 **Sunrise & sunset** timings
+- 📆 **5-day weather forecast**
+- 🎨 **Dynamic backgrounds** (day/night & weather-based)
+- ✨ Weather animations (stars, rain, snow)
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology | Purpose |
-|------------|---------|
-| **HTML5** | Structure of the app |
-| **CSS, TailwindCSS** | Styling, UI Design, Effects |
-| **JavaScript (ES6)** | API calls & dynamic UI updates |
-| **OpenWeatherMap API** | Weather, forecast & AQI data |
-| **Geolocation API** | Detecting user's current location |
+| Technology | Description |
+|----------|-------------|
+| HTML5 | App structure |
+| CSS & TailwindCSS | Styling, layout & glassmorphism UI |
+| JavaScript (ES6) | API integration & dynamic updates |
+| OpenWeatherMap API | Weather, forecast & AQI data |
+| Geolocation API | User location detection |
 
 ---
 
 ## 📁 Project Structure
 
-Weather-App/
+```
+vayu-weather-app/
 │── index.html       # Main UI
-│── style.css        # Custom styling + animations
-│── script.js        # Weather + AQI logic
+│── style.css        # Custom styles & animations
+│── script.js        # Weather & AQI logic
 └── README.md
+```
 
 ---
 
-## 🔧 Setup (Run Locally)
+## 🚀 Getting Started
 
-1. Clone this repository:
-   ```
-   git clone https://github.com/omi30/Weather-App.git
-   ```
-2. Navigate into the project folder:
-   ```
-   cd Weather-App
-   ```
-3. Open `index.html` in any web browser.
+### Run Locally
 
-✅ No backend or server required — fully client-side.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/omi30/vayu-weather-app.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd vayu-weather-app
+   ```
+3. Open `index.html` in your browser.
+
+✅ No backend required — fully client-side application.
 
 ---
 
 ## 🔑 API Key Setup (Required)
 
-1. Go to: https://openweathermap.org/api
-2. Create/login to your account
-3. Generate an API key
+1. Visit: https://openweathermap.org/api  
+2. Create or log in to your account  
+3. Generate an API key  
 4. Open `script.js` and replace:
    ```js
-   const API_KEY = "YOUR_API_KEY";
+   const API_KEY = "OpenWeather_APi_KEY";
    ```
-
----
-
-## ✨ Features
-
-| Feature | Description |
-|---------|-------------|
-| ✅ Real-time weather data | Shows temperature and weather details |
-| ✅ 5-Day Forecast | Provides future temperature & icons |
-| ✅ Dynamic Backgrounds | Changes based on weather + day/night |
-| ✅ Weather Animations | Stars, rain, snow effects |
-| ✅ Air Quality Index | Shows AQI value + health recommendations |
 
 ---
 
@@ -79,11 +77,12 @@ Weather-App/
 
 **Om Undage**
 
-🔗 GitHub Profile: https://github.com/omi30  
-⭐ If you like this project, consider giving it a **star**!
+- GitHub: https://github.com/omi30  
+
+⭐ If you like **Vayu Weather App**, consider giving it a star!
 
 ---
 
 ## 📄 License
 
-This project is **open source** and available under the MIT License.
+This project is **open source** and licensed under the **MIT License**.
