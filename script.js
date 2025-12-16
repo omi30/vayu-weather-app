@@ -66,6 +66,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const fetchweather = async ({ lat, lon, city }) => {
     showLoading();
     if (clockInterval) clearInterval(clockInterval);
+    cityInput.value = "";
+    cityInput.blur();
 
     try {
       if (!API_KEY) throw new Error("OpenWeatherMap API Key is missing.");
